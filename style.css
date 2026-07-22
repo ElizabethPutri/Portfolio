@@ -1,0 +1,120 @@
+#cover {
+    background-color: #002a56;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+}
+
+div.cover {
+    width: 100vh;
+}
+
+.cover {
+    color: white;
+}
+
+p.cover {
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+h2.cover {
+    font-family: "Great Vibes", cursive;
+    font-size: 89px;
+    font-weight: lighter;
+    text-align: center;
+    color: #2cd3ff;
+    margin: 0;
+    padding-top: 50px;
+}
+
+h1.cover {
+    font-family: "Big Shoulders", sans-serif;
+    font-size: 178px;
+    text-align: center;
+    text-shadow: 5px 0 #0b437d, -5px 0 #0b437d, 0 5px #0b437d, 0 -5px #0b437d,
+        1px 1px #0b437d, -5px -5px #0b437d, 5px -5px #0b437d, -5px 5px #0b437d;
+    margin: 0;
+}
+
+h3.cover {
+    font-family: "Public Sans", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+}
+
+.cover_bottom {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+.cover_bottom>*{
+    justify-self: center;
+}
+
+.cover_bottom>a{
+    align-self: center;
+}
+
+.star{
+    justify-self: left;
+    align-self: flex-end;
+}
+
+#introduction, #resume{
+    background: #B9CDD7;
+background: linear-gradient(90deg, rgba(185, 205, 215, 1) 0%, rgba(122, 170, 198, 1) 50%, rgba(39, 115, 165, 1) 100%);
+}
+
+.profile>img{
+    width: 30rem;
+    border: 5px solid white;
+    border-radius: 10%;
+    margin: 10rem;
+    
+
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile.text{
+    width: 100%;
+    align-self: center;
+}
+
+h1.introduction, h1.resume{
+    font-family: "Big Shoulders", sans-serif;
+    color: #0b437d;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+}
+
+p.introduction{
+    font-family: "Public Sans", sans-serif;
+    font-size: 30px;
+    color: #0b437d;
+    text-align: center;
+    width: 50rem;
+}
+
+h1.resume{
+    padding: 10%;
+}
+
+img.programming{
+    height: 10rem;
+    border-radius: 10%;
+    border: 5px solid white;
+}
