@@ -1,6 +1,7 @@
-#cover {
+#cover, #footer{
     background-color: #002a56;
     width: 100%;
+    
 }
 
 body {
@@ -54,51 +55,56 @@ h3.cover {
     grid-template-rows: 1fr;
 }
 
-.cover_bottom>*{
+.cover_bottom>* {
     justify-self: center;
 }
 
-.cover_bottom>a{
+.cover_bottom>a {
     align-self: center;
 }
 
-.star{
+.star {
     justify-self: left;
     align-self: flex-end;
 }
 
-#introduction, #resume, #getInTouch{
+#introduction,
+#resume,
+#getInTouch {
     background: #B9CDD7;
-background: linear-gradient(90deg, rgba(185, 205, 215, 1) 0%, rgba(122, 170, 198, 1) 50%, rgba(39, 115, 165, 1) 100%);
+    background: linear-gradient(90deg, rgba(185, 205, 215, 1) 0%, rgba(122, 170, 198, 1) 50%, rgba(39, 115, 165, 1) 100%);
 }
 
-.profile>img{
+.profile>img {
     width: 30rem;
     border: 5px solid white;
     border-radius: 10%;
     margin: 10rem;
-    
+
 
 }
-.profile{
+
+.profile {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.profile.text{
+
+.profile.text {
     width: 100%;
     align-self: center;
 }
 
-h1.introduction, h1.resume {
+h1.introduction,
+h1.resume {
     font-family: "Big Shoulders", sans-serif;
     color: #0b437d;
     text-align: center;
     font-size: 100px;
     font-weight: 400;
     padding: 0px;
-    margin: 0px;    
+    margin: 0px;
 }
 
 p.introduction {
@@ -110,29 +116,30 @@ p.introduction {
     margin-top: 20px;
 }
 
-h1.resume{
+h1.resume {
     padding: 10%;
     padding-bottom: 5%;
 }
 
-img.programming{
+img.programming {
     width: 100%;
     border-radius: 10%;
     border: 5px solid white;
 }
 
-.done>h2, .done>p{
+.done>h2,
+.done>p {
     font-family: "Public Sans", sans-serif;
     color: #0b437d;
     margin-top: 20px;
 }
 
-.done{
+.done {
     border-left: 5px dotted whitesmoke;
-    padding : 20px
+    padding: 20px
 }
 
-.getInTouch{
+.getInTouch {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,10 +155,24 @@ img.programming{
 }
 
 
-.getInTouch>p{
+.getInTouch>p {
     font-family: "Public Sans", sans-serif;
     font-size: 20px;
-    color: #0b437d;;
+    color: #0b437d;
+    margin-top: 30px;
     text-align: center;
     width: 30rem;
+    ;
+}
+
+.contactButton {
+    margin-top: 20px;
+    font-family: "Public Sans", sans-serif;
+    text-decoration: none;
+    border-radius: 20px; /* Gunakan angka kecil agar lengkungannya halus */
+    padding: 10px 20px; /* Tambahkan ruang agar tombol terlihat proporsional (opsional) */
+    color: white;
+    background: #7AAAC6;
+    background: radial-gradient(circle, rgba(122, 170, 198, 1) 0%, rgba(39, 115, 165, 1) 100%);
+    margin-bottom: 80px
 }
