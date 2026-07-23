@@ -67,7 +67,7 @@ h3.cover {
     align-self: flex-end;
 }
 
-#introduction, #resume{
+#introduction, #resume, #getInTouch{
     background: #B9CDD7;
 background: linear-gradient(90deg, rgba(185, 205, 215, 1) 0%, rgba(122, 170, 198, 1) 50%, rgba(39, 115, 165, 1) 100%);
 }
@@ -91,30 +91,67 @@ background: linear-gradient(90deg, rgba(185, 205, 215, 1) 0%, rgba(122, 170, 198
     align-self: center;
 }
 
-h1.introduction, h1.resume{
+h1.introduction, h1.resume {
     font-family: "Big Shoulders", sans-serif;
     color: #0b437d;
     text-align: center;
     font-size: 100px;
     font-weight: 400;
     padding: 0px;
-    margin: 0px;
+    margin: 0px;    
 }
 
-p.introduction{
+p.introduction {
     font-family: "Public Sans", sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color: #0b437d;
     text-align: center;
-    width: 50rem;
+    width: 30rem;
+    margin-top: 20px;
 }
 
 h1.resume{
     padding: 10%;
+    padding-bottom: 5%;
 }
 
 img.programming{
-    height: 10rem;
+    width: 100%;
     border-radius: 10%;
     border: 5px solid white;
+}
+
+.done>h2, .done>p{
+    font-family: "Public Sans", sans-serif;
+    color: #0b437d;
+    margin-top: 20px;
+}
+
+.done{
+    border-left: 5px dotted whitesmoke;
+    padding : 20px
+}
+
+.getInTouch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.getInTouch>h1 {
+    padding-top: 120px;
+    font-family: "Big Shoulders", sans-serif;
+    color: #0b437d;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 400;
+}
+
+
+.getInTouch>p{
+    font-family: "Public Sans", sans-serif;
+    font-size: 20px;
+    color: #0b437d;;
+    text-align: center;
+    width: 30rem;
 }
