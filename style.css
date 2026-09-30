@@ -1,7 +1,8 @@
-#cover, #footer{
+#cover,
+#footer {
     background-color: #002a56;
     width: 100%;
-    
+
 }
 
 body {
@@ -169,10 +170,125 @@ img.programming {
     margin-top: 20px;
     font-family: "Public Sans", sans-serif;
     text-decoration: none;
-    border-radius: 20px; /* Gunakan angka kecil agar lengkungannya halus */
-    padding: 10px 20px; /* Tambahkan ruang agar tombol terlihat proporsional (opsional) */
+    border-radius: 20px;
+    /* Gunakan angka kecil agar lengkungannya halus */
+    padding: 10px 20px;
+    /* Tambahkan ruang agar tombol terlihat proporsional (opsional) */
     color: white;
     background: #7AAAC6;
     background: radial-gradient(circle, rgba(122, 170, 198, 1) 0%, rgba(39, 115, 165, 1) 100%);
     margin-bottom: 80px
+}
+
+@media (max-width: 991.98px) {
+    p.cover {
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+
+    h2.cover {
+        font-size: 64px;
+        padding-top: 30px;
+    }
+
+    h1.cover {
+        font-size: 14vw;
+    }
+
+    h3.cover {
+        font-size: 32px;
+    }
+
+    .cover_bottom>svg,
+    .cover_bottom>a>svg {
+        width: 70px;
+        height: 70px;
+    }
+
+    .star {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .profile>img {
+        width: 22rem;
+        max-width: 80%;
+        margin: 5rem 0;
+    }
+
+    h1.introduction,
+    h1.resume,
+    .getInTouch>h1 {
+        font-size: 72px;
+    }
+
+    p.introduction,
+    .getInTouch>p {
+        width: 80%;
+        max-width: 30rem;
+    }
+
+    .done {
+        border-left: none;
+        border-top: 5px dotted whitesmoke;
+    }
+
+    .done.weatherApp {
+        border-top: none;
+    }
+}
+
+@media (max-width: 575.98px) {
+    p.cover {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    h2.cover {
+        font-size: 44px;
+        padding-top: 20px;
+    }
+
+    h1.cover {
+        font-size: 15vw;
+    }
+
+    h3.cover {
+        font-size: 24px;
+    }
+
+    .cover_bottom {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .cover_bottom>svg,
+    .cover_bottom>a>svg {
+        width: 44px;
+        height: 44px;
+    }
+
+    .profile>img {
+        width: 16rem;
+        margin: 3rem 0;
+    }
+
+    h1.introduction,
+    h1.resume,
+    .getInTouch>h1 {
+        font-size: 48px;
+    }
+
+    h1.resume {
+        padding: 15% 5% 5% 5%;
+    }
+
+    p.introduction,
+    .getInTouch>p {
+        width: 85%;
+        font-size: 17px;
+    }
+
+    .getInTouch>h1 {
+        padding-top: 80px;
+    }
 }
